@@ -6,7 +6,7 @@ Instalación
 
 2. En consola: composer install
 
-3.- Crear tabla de base de datos ci_sessions:
+3. Crear tabla de base de datos ci_sessions:
 
 
 CREATE TABLE IF NOT EXISTS ci_sessions (
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS ci_sessions (
 );
 
 
-4.- Configurar base de datos en application/config/database
+4. Configurar base de datos en application/config/database
 
 INFORMACIÓN ORIGINAL
 
