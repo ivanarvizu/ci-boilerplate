@@ -2,9 +2,12 @@
 Instalación
 ###################
 
-1.- Clonar repositorio o descargar.
-2.- En consola: composer install
+1. Clonar repositorio o descargar.
+
+2. En consola: composer install
+
 3.- Crear tabla de base de datos ci_sessions:
+
 
 CREATE TABLE IF NOT EXISTS ci_sessions (
         id varchar(128) NOT NULL,
@@ -13,6 +16,7 @@ CREATE TABLE IF NOT EXISTS ci_sessions (
         data blob NOT NULL,
         KEY ci_sessions_timestamp (timestamp)
 );
+
 
 4.- Configurar base de datos en application/config/database
 
