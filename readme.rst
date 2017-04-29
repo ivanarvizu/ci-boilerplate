@@ -20,6 +20,8 @@ CREATE TABLE IF NOT EXISTS ci_sessions (
 
 4. Configurar base de datos en application/config/database
 
+5. Configuar un dominio virtual.
+
 INFORMACIÓN ORIGINAL
 
 ###################
