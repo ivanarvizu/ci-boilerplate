@@ -17,7 +17,7 @@ Requisitos previos: Instalar Composer (https://getcomposer.org/)
 INFORMACIÓN ORIGINAL
 
 ###################
-Instalación
+Changelog
 ###################
 
 2017-11-11: Se agregó un cliente de línea de comandos basado en Pitisan (https://github.com/piece601/Codeigniter-Pitisan)
