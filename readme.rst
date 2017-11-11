@@ -2,27 +2,25 @@
 Instalación
 ###################
 
+Requisitos previos: Instalar Composer (https://getcomposer.org/)
+
 1. Clonar repositorio o descargar.
 
-2. En consola: composer install
+2. Abrir una terminal de comandos e introducir: composer install
 
-3. Crear tabla de base de datos ci_sessions:
+3. Configurar en ´application/config/database´ los parámetros de base de datos.
 
+4. Crear tabla de base de datos ci_sessions. Para esto, se incluye el archivo ´ci_sessions.sql´ en la raíz del proyecto.
 
-CREATE TABLE IF NOT EXISTS ci_sessions (
-        id varchar(128) NOT NULL,
-        ip_address varchar(45) NOT NULL,
-        timestamp int(10) unsigned DEFAULT 0 NOT NULL,
-        data blob NOT NULL,
-        KEY ci_sessions_timestamp (timestamp)
-);
-
-
-4. Configurar base de datos en application/config/database
-
-5. Configuar un dominio virtual.
+5. Se recomienda ampliamente configuar un dominio virtual de Apache.
 
 INFORMACIÓN ORIGINAL
+
+###################
+Instalación
+###################
+
+2017-11-11: Se agregó un cliente de línea de comandos basado en Pitisan (https://github.com/piece601/Codeigniter-Pitisan)
 
 ###################
 What is CodeIgniter
