@@ -14,13 +14,18 @@ Requisitos previos: Instalar Composer (https://getcomposer.org/)
 
 5. Se recomienda ampliamente configuar un dominio virtual de Apache.
 
-INFORMACIÓN ORIGINAL
 
 ###################
 Changelog
 ###################
 
+2017-11-12: Se añadió una vaidación cuando la variable "SERVER_NAME" no está definida y se le agregó un modelo Eloquent
+de ejemplo
+
 2017-11-11: Se agregó un cliente de línea de comandos basado en Pitisan (https://github.com/piece601/Codeigniter-Pitisan)
+
+
+INFORMACIÓN ORIGINAL
 
 ###################
 What is CodeIgniter
