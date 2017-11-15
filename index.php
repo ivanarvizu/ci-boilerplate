@@ -305,7 +305,11 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
-require_once "application/composer/autoload.php";
+if(file_exists("application/composer/autoload.php")) {
+    require_once "application/composer/autoload.php";
+} else {
+    die("Error: Componentes de composer no instalados. Abra una consola y ejecute 'composer install'");
+}
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
